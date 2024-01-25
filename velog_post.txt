@@ -1,0 +1,291 @@
+const postData = {
+    "data": {
+        "posts": [
+            {
+                "id": "ad1c53e8-8c32-4102-b72a-c5bc4b86e44a",
+                "title": "[Day3] 이미지, 링크 TIL (feat. Do it - HTML5 + CSS3)",
+                "short_description": "웹 페이지에서 사용할 수 있는 이미지 파일은 파일 크기가 크지 않으면서도 화질이 좋아야하기 때문에 몇 가지 파일 형식만 사용할 수 있음. 만약 다른 형식으로 된 이미지 파일을 웹에서 사용하려면 다음과 같은 파일 형식으로 변환해야 함.",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "Day3-이미지-링크-TIL-feat.-Do-it-HTML5-CSS3",
+                "released_at": "2024-01-11T01:45:15.726Z",
+                "updated_at": "2024-01-12T00:44:17.025Z",
+                "comments_count": 0,
+                "tags": [
+                    "웹"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "3e142fb3-1f0e-4898-b8e4-d0f3b80b1e47",
+                "title": "[Day2] 텍스트 태그 TIL (feat. Do it - HTML5 + CSS3)",
+                "short_description": "02-1 텍스트를 덩어리로 묶어 주는 태그\n02-2 텍스트를 한 줄로 표시하는 태그\n02-3 목록을 만드는 태그\n02-4 표를 만드는 태그\n",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "Day2-텍스트-태그-TIL-feat.-Do-it-HTML5-CSS3",
+                "released_at": "2024-01-10T05:49:42.589Z",
+                "updated_at": "2024-01-10T15:21:44.021Z",
+                "comments_count": 0,
+                "tags": [
+                    "웹"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "0c93f1f0-3fa2-44b5-876f-8e26e5611ece",
+                "title": "[Day1] HTML 기초 TIL (feat. Do it - HTML5 + CSS3)",
+                "short_description": "Do it 시리즈로 공부하는 웹 개발 기초 1일차 TIL일반 문서 : 내용을 입력하는 프로그램과 내용을 확인하는 프로그램이 같음(Ex. excel, 한글, 워드 등)웹 문서 : 문서를 작성하는 프로그램과 그 문서 내용을 보는 프로그램이 서로 다름웹 편집기 : 웹 문서를",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "Day1-HTML-기초-TIL-feat.-Do-it-HTML5-CSS3",
+                "released_at": "2024-01-09T07:37:35.340Z",
+                "updated_at": "2024-01-10T02:31:03.329Z",
+                "comments_count": 0,
+                "tags": [
+                    "웹"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "af34586c-92be-43d4-9198-6e5a34ffe816",
+                "title": "언어를 어떻게 습득하는가? 스티븐 크라센 Stephen Krashen",
+                "short_description": "치매를 늦출 수 있는 세 가지 방법두 가지 이상의 언어를 쓰는 사람이 되어라두 가지 언어를 서로 왔다갔다 하며 구사하고 말해온 사람이 더 나은 executive control을 갖고 있다.executive control = 당신이 어디에 있는지 잊지 않는 것읽기 = r",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "언어를-어떻게-습득하는가-스티븐-크라센-Stephen-Krashen",
+                "released_at": "2024-01-09T05:14:53.325Z",
+                "updated_at": "2024-01-10T05:49:53.903Z",
+                "comments_count": 0,
+                "tags": [
+                    "도서관",
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "b90781dc-f3d9-4a69-bfb2-1619297c3422",
+                "title": "🌲Touch wood vs 🤞Fingers crossed",
+                "short_description": "둘다 행운(good luck)을 비는 것을 의미함.Knocking(미국) on wood (also phrased touching(영국) wood or touch wood)행운을 비는 것을 의미함나무에 정령이 있다고 믿어 나무를 두드리거나 만지는 건 그 정령에게 행운을 ",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "Touch-wood-vs-Fingers-crossed",
+                "released_at": "2024-01-09T02:31:16.635Z",
+                "updated_at": "2024-01-09T04:31:03.315Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 0
+            },
+            {
+                "id": "4f9a316f-f508-44e2-9a4c-310836325d8e",
+                "title": "🛫🎡🚂holiday vs vacation vs trip",
+                "short_description": "holiday', 'vacation', 'trip'이라는 단어는 집이나 직장을 떠나 여행하며 보내는 기간을 가리킬 수 있어요. 용례 상 몇 가지 차이점을 살펴볼게요.A \"holiday\" is usually for leisure and is more common in B",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "holiday-vs-vacation-vs-trip",
+                "released_at": "2023-12-19T11:15:30.464Z",
+                "updated_at": "2023-12-20T01:29:11.917Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "4bc19349-4dcf-4977-91f4-271d40b7b96b",
+                "title": "🚉metro? subway? ",
+                "short_description": "지하, 또는 반지하 철도 시스템의 명칭은 지역이나 국가에 따라 다를 수 있습니다. 다음은 세계 곳곳의 몇 가지 예입니다. ⤵️🇫🇷 the Paris Metro🇬🇧 the London UndergroundThe London Underground is also kn",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "metro-subway",
+                "released_at": "2023-12-19T05:00:45.902Z",
+                "updated_at": "2023-12-19T05:00:46.239Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "4cc67e5a-3f9a-487f-b011-f855ff6f6a0a",
+                "title": "🚎'to take' vs 🏃‍♀️'to catch'?",
+                "short_description": "동사 'to take'와 'to catch' 모두 교통 수단 유형('a bus', 'a train', 'a plane' 등)과 함께 사용하지만, 용도는 조금 다를 수 있어요.\"to take\" is often used for routine, a past trip or f",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "to-take-vs-to-catch",
+                "released_at": "2023-12-19T02:05:36.358Z",
+                "updated_at": "2023-12-29T13:59:44.911Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "1b256638-43c5-4da4-a006-5977262ca94a",
+                "title": "👨‍👨‍👧‍👦beside vs next to👫",
+                "short_description": "전치사 'beside'와 'next to' 모두 어떤 사람이나 사물의 옆이라는 뜻이에요. 차이점이라면 각 표현을 언제 쓰느냐에 있어요.The bus stop is beside the bank.The bus stop is next to the bank.",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "beside-vs-next-to",
+                "released_at": "2023-12-15T07:21:05.860Z",
+                "updated_at": "2023-12-19T07:49:31.595Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 1
+            },
+            {
+                "id": "79396c09-fcc7-4670-bff7-fa7e2cb63456",
+                "title": "rubbish vs trash",
+                "short_description": "미국에서는 \"rubbish\" 대신에 단어 \"trash\"를 들을 가능성이 더 많습니다. 분리된 쓰레기에 관해 이야기하는 경우 \"to take out the recycling\"이라고 말할 수도 있습니다.🇬🇧(영국) I took out the rubbish last ni",
+                "thumbnail": null,
+                "user": {
+                    "id": "94071d73-7a3e-4659-9da3-053c245272e3",
+                    "username": "itsantiago",
+                    "profile": {
+                        "id": "32817c45-4d9f-4c18-a39d-837787d08bc5",
+                        "thumbnail": null,
+                        "display_name": "Kiwoong Park"
+                    }
+                },
+                "url_slug": "rubbish-vs-trash",
+                "released_at": "2023-12-15T04:46:09.195Z",
+                "updated_at": "2023-12-15T04:46:09.827Z",
+                "comments_count": 0,
+                "tags": [
+                    "영어"
+                ],
+                "is_private": false,
+                "likes": 0
+            }
+        ]
+    }
+};
+
+const postIdArray = postData.data.posts.map(post => post.id)
+console.log(postIdArray)
+
+
+const postIdArray = ['ad1c53e8-8c32-4102-b72a-c5bc4b86e44a', '3e142fb3-1f0e-4898-b8e4-d0f3b80b1e47', '0c93f1f0-3fa2-44b5-876f-8e26e5611ece', 'af34586c-92be-43d4-9198-6e5a34ffe816', 'b90781dc-f3d9-4a69-bfb2-1619297c3422', '4f9a316f-f508-44e2-9a4c-310836325d8e', '4bc19349-4dcf-4977-91f4-271d40b7b96b', '4cc67e5a-3f9a-487f-b011-f855ff6f6a0a', '1b256638-43c5-4da4-a006-5977262ca94a', '79396c09-fcc7-4670-bff7-fa7e2cb63456'];
+const fetchPromises = postIdArray.map(postId => {
+  const requestBody = {
+    operationName: "GetStats",
+    variables: {
+      post_id: postId
+    },
+    query: "query GetStats($post_id: ID!) {\n  getStats(post_id: $post_id) {\n    total\n    count_by_day {\n      count\n      day\n      __typename\n    }\n    __typename\n  }\n}\n"
+  };
+
+  return fetch("https://v2cdn.velog.io/graphql", {
+    headers: {
+      accept: "*/*",
+      "accept-language": "en-US,en;q=0.9,ko;q=0.8",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    referrer: "https://velog.io/",
+    referrerPolicy: "strict-origin-when-cross-origin",
+    body: JSON.stringify(requestBody),
+    method: "POST",
+    mode: "cors",
+    credentials: "include"
+  })
+  .then(response => response.json())
+  .then(json => json.data.getStats.total);
+});
+
+Promise.all(fetchPromises)
+  .then(results => {
+    console.log(results)
+    const totalSum = results.reduce((acc, val) => acc + val, 0);
+    console.log("Total sum:", totalSum);
+  });
